@@ -1,0 +1,23 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100px;
+  }
+    
